@@ -1,0 +1,18 @@
+import math
+a=int(input("Enter the co-efficient of x*x"))
+b=int(input("Enter the co-efficient of x"))
+c=int(input("Enter the constant value"))
+d=(b*b)-(4*a*c)
+if(d==0):
+   e=-b/(2*a)
+   print"The roots are real and equal",e
+elif(d>0):
+   f=-b+(math.sqrt(d)/(2*a))
+   i=-b-(math.sqrt(d)/(2*a))
+   print"Roots are real and distinct",f,i
+else:
+   h=-b/(2*a)
+   i=math.sqrt(-d)/(2*a)
+   print"Complex roots"
+   print h,"+j",i
+   print h,"-j",i
