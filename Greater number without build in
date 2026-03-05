@@ -1,0 +1,9 @@
+a=int(input("Enter the First number"))
+b=int(input("Enter the Second Number"))
+c=int(input("Enter the Third number"))
+if(a>b and a>c):
+   print"A is Greater",a
+elif(b>c and b>a):
+   print"B is Greater",b
+else:
+   print"C is Greater",c
