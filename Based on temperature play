@@ -1,0 +1,12 @@
+t=raw_input("Enter the temperature status:")
+h=raw_input("Enter the Humitity status:")
+if(t == "warm" and h == "dry"):
+   print "Play Basketball"
+elif(t == "warm" and h == "humid"):
+   print "Play Tennies"
+elif(t == "cold" and h == "dry"):
+   print "Play Cricket"
+elif(t == "cold" and h == "humid"):
+   print "Play Swim"
+else:
+   print " Enter the Correct Input"
